@@ -23,11 +23,14 @@ The Adventure Works dataset is a comprehensive database, contains data related t
 - Original Data Source - [Dataset](https://www.kaggle.com/datasets/ukveteran/adventure-works/data?select=AdventureWorks_Product_Categories.csv)
 
 # Synapse Scripts
+- Click on below links to see Script:
 1. [Create View File](SQL-Scripts/AW_Create_View.sql)
 2. [Create Schema File](SQL-Scripts/Create_Schema.sql)
-3. [SQL Script File](SQL-Scripts/SQL_Script.sql)
+3. [SQL Script for Gold Layer](SQL-Scripts/SQL_Script.sql)
 
 # Databricks Script
+- Click on below link to see Script:
+1. [Data Tranformation in Silver Layer](AW-Data-Engineering-Project/AW_Databricks_Notebook.ipynb)
 
-# Visualization Data With Power BI
-![Visualization]()
+# Data Visualization With Power BI
+![Visualization](AW_PowerBI.jpg)
