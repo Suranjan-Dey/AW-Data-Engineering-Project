@@ -10,7 +10,7 @@ The "AW Data Engineering Project" focuses on designing and implementing a robust
 1. Programing Language - Python
 2. Scripting Language - SQL
 3. Microsoft Azure Cloud
-   - Azure Data Lake Storage Gen 2
+   - Azure Data Lake Storage Gen2
    - Azure Data Factory
    - Azure Databricks
    - Azure Synapse Analytics
