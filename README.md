@@ -23,9 +23,15 @@ The Adventure Works dataset is a comprehensive database, contains data related t
 - Original Data Source - [Dataset](https://www.kaggle.com/datasets/ukveteran/adventure-works)
 
 # Azure Data Factory Pipeline
+In the **AW Data Engineering Project**, data ingestion is performed from an HTTP source into Azure Data Lake Storage Gen2 using Azure Data Factory. The workflow in Azure Data Factory follows these steps:
+- **Lookup Activity**: Retrieves a dataset from the specified HTTP source and extracts the content of a [configuration file](AW-Data-Engineering-Project/gitfile.json). This configuration file typically defines the parameters required for subsequent operations.
+- **ForEach Activity**: Processes the output of the Lookup Activity, iterating over its elements to enable parallel or sequential execution of tasks.
+- **Copy Activity:** Executes within the ForEach Activity to facilitate data transfer from the HTTP source to Azure Data Lake Storage Gen2. This activity ensures seamless ingestion and storage of data in a structured format.
+
 ![ADF Pipeline](ADF-Pipeline.jpg)
 
 # Databricks Script
+In the **AW Data Engineering Project**, data transformation is conducted in the Silver Layer using Azure Databricks. Azure Databricks provides a highly scalable and collaborative environment for performing advanced data transformations, enabling the cleansing, enrichment, and standardization of raw data ingested from the Bronze Layer.This transformation process ensures that the data in the Silver Layer is optimized for further analytical and reporting purposes while maintaining consistency and accuracy.
 - Click on below link to see Script:
 1. [Data Tranformation in Silver Layer](AW-Data-Engineering-Project/AW_Databricks_Notebook.ipynb)
 
