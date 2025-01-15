@@ -1,4 +1,4 @@
-# Adventure Works Data Analytics | Data Engineering Azure Project
+# Adventure Works Data Analytics | Data Engineering Project
 
 ## Introduction
 The "AW Data Engineering Project" focuses on designing and implementing a robust data processing and analytics pipeline using Azure services. This project leverages Azure Data Lake Storage Gen2 for scalable storage and Azure Data Factory for orchestrating ETL pipelines in bronze layer. It incorporates Azure Databricks for data transformation and advanced analytics in silver layer, integrates Azure Synapse Analytics for efficient querying and data warehousing in gold layer, and utilizes Power BI for insightful data visualization and reporting, delivering end-to-end data engineering solutions.
@@ -20,7 +20,10 @@ The "AW Data Engineering Project" focuses on designing and implementing a robust
 The Adventure Works dataset is a comprehensive database, contains data related to a fictional bikes and accessories manufacturing company, covering aspects like sales, products, customers, employees, and supply chain operations.
 
 - Here is the dataset used in this project - [Project Dataset](https://github.com/Suranjan-Dey/AW-Data-Engineering-Project/tree/main/Dataset)
-- Original Data Source - [Dataset](https://www.kaggle.com/datasets/ukveteran/adventure-works/data?select=AdventureWorks_Product_Categories.csv)
+- Original Data Source - [Dataset](https://www.kaggle.com/datasets/ukveteran/adventure-works)
+
+# Azure Data Factory Pipeline
+![ADF Pipeline](ADF-Pipeline.jpg)
 
 # Databricks Script
 - Click on below link to see Script:
@@ -34,3 +37,5 @@ The Adventure Works dataset is a comprehensive database, contains data related t
 
 # Data Visualization With Power BI
 ![Visualization](AW_PowerBI.jpg)
+
+## Connect With Me: [LinkedIn](https://www.linkedin.com/in/suranjandey/)
