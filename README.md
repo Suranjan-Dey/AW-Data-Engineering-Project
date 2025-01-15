@@ -1,9 +1,9 @@
 # Adventure Works Data Analytics | Data Engineering Project
 
-## Introduction
+# Introduction
 The "AW Data Engineering Project" focuses on designing and implementing a robust data processing and analytics pipeline using Azure services. This project leverages Azure Data Lake Storage Gen2 for scalable storage and Azure Data Factory for orchestrating ETL pipelines in bronze layer. It incorporates Azure Databricks for data transformation and advanced analytics in silver layer, integrates Azure Synapse Analytics for efficient querying and data warehousing in gold layer, and utilizes Power BI for insightful data visualization and reporting, delivering end-to-end data engineering solutions.
 
-## Architecture
+# Architecture
 ![Project Architecture](AW_Project_Diagram.jpg)
 
 # Technology Used
@@ -44,4 +44,4 @@ In the **AW Data Engineering Project**, data transformation is conducted in the 
 # Data Visualization With Power BI
 ![Visualization](AW_PowerBI.jpg)
 
-## Connect With Me: [LinkedIn](https://www.linkedin.com/in/suranjandey/)
+# Connect With Me: [LinkedIn](https://www.linkedin.com/in/suranjandey/)
