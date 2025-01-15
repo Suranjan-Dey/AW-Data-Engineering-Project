@@ -1,7 +1,7 @@
 # Adventure Works Data Analytics | Data Engineering Azure Project
 
 ## Introduction
-The "AW Data Engineering Project" focuses on designing and implementing a robust data processing and analytics pipeline using Azure services. This projecrt integrates Azure Data Factory for pipeline orchestration in bronze layer, Azure Databricks for data transformation in silver layer, Azure Synapse Analytics for scalable data warehousing in gold layer, and Power BI for insightful visualizations, delivering end-to-end data engineering solutions.
+The "AW Data Engineering Project" focuses on designing and implementing a robust data processing and analytics pipeline using Azure services. This project leverages Azure Data Lake Storage Gen2 for scalable storage and Azure Data Factory for orchestrating ETL pipelines in bronze layer. It incorporates Azure Databricks for data transformation and advanced analytics in silver layer, integrates Azure Synapse Analytics for efficient querying and data warehousing in gold layer, and utilizes Power BI for insightful data visualization and reporting, delivering end-to-end data engineering solutions.
 
 ## Architecture
 ![Project Architecture](AW_Project_Diagram.jpg)
@@ -28,8 +28,8 @@ The Adventure Works dataset is a comprehensive database, contains data related t
 
 # Synapse Scripts
 - Click on below links to see Script:
-1. [Create View File](SQL-Scripts/AW_Create_View.sql)
-2. [Create Schema File](SQL-Scripts/Create_Schema.sql)
+1. [Create Schema File](SQL-Scripts/Create_Schema.sql)
+2. [Create View File](SQL-Scripts/AW_Create_View.sql)
 3. [SQL Script for Gold Layer](SQL-Scripts/SQL_Script.sql)
 
 # Data Visualization With Power BI
